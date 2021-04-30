@@ -10,35 +10,35 @@ class Engine(object):
         pass
     
     def play(self):
-          pass
+        pass
      
 class Death(Scene):
 
-    def enter(self)
-    pass
+    def enter(self):    
+        pass
 
 class CenterCorridor(Scene):
 
-    def enter(self)
-    pass
+    def enter(self):
+        pass
 
 class LaserWeaponArmory(Scene):
 
-    def enter(self)
-    pass
+    def enter(self):
+        pass
 
 class TheBridge(Scene):
 
-    def entry(self)
-    pass
+    def entry(self):
+        pass
 
 class EscapePod(Scene):
 
-    def enter(self)
-    pass
+    def enter(self):
+        pass
 
 
-class Map(Object):
+class Map(object):
 
     def __init__(self, start_scene):
         pass
@@ -51,7 +51,7 @@ class Map(Object):
 
 
 a_map = Map('central_corridor')
-a_game = Game(a_map)
+a_game = Engine(a_map)
 a_game.play()
 
 

@@ -11,5 +11,47 @@ class Engine(object):
     
     def play(self):
           pass
-      
-aanpassing    
+     
+class Death(Scene):
+
+    def enter(self)
+    pass
+
+class CenterCorridor(Scene):
+
+    def enter(self)
+    pass
+
+class LaserWeaponArmory(Scene):
+
+    def enter(self)
+    pass
+
+class TheBridge(Scene):
+
+    def entry(self)
+    pass
+
+class EscapePod(Scene):
+
+    def enter(self)
+    pass
+
+
+class Map(Object):
+
+    def __init__(self, start_scene):
+        pass
+
+    def next_scene(self, scene_name):
+        pass
+
+    def opening_scene(self):
+        pass
+
+
+a_map = Map('central_corridor')
+a_game = Game(a_map)
+a_game.play()
+
+
